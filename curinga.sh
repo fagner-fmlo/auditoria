@@ -446,5 +446,5 @@ alias chkmailabuse='less /var/log/exim_mainlog | grep sendmail | grep -vE "csf|F
 
 
 alias awesome="echo 'Alan is Awesome! DUH!!!'"
-                                                                                                                              446,1         Fim
+                                                                                                                  446,1         Fim
 
