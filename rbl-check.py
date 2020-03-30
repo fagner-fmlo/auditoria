@@ -283,7 +283,7 @@ def valid_IP(ip):
 
 
 
-RBLs = urllib2.urlopen("http://legal.hostdime.com/tjb_env/rbls").read().rstrip().split('\n')
+RBLs = urllib2.urlopen("https://raw.githubusercontent.com/fagner-fmlo/arquivos/master/black").read().rstrip().split('\n')
 RBLs = [ x.split(';') for x in RBLs]
 reverseIP = lambda x: '.'.join(x.split('.')[::-1])
 
