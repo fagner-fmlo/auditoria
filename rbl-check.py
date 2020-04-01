@@ -395,4 +395,4 @@ for ip in ipList:
     print ''
 print '~' * 80
 print ''
-sed -i '$d' /root/.bash_history
+
