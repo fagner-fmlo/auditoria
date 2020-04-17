@@ -17,6 +17,5 @@ read cpuser
 chage -l $cpuser
 if [ "$cpuser" == "$cpuser" ], then
 echo "The password for "$cpuser" was changed at:" 
-  else
   echo "The password was not changed"
  fi
