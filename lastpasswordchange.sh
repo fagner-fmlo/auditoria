@@ -14,9 +14,9 @@ echo ""
 
 echo "Inform the cpuser"
 read cpuser
-
-if [ "$cpuser" == "$cpuser" ], then
 chage -l $cpuser
+if [ "$cpuser" == "$cpuser" ], then
+echo "The password for "$cpuser" was changed at:" 
   else
   echo "The password was not changed"
  fi
