@@ -10,6 +10,7 @@
 
 #This is system monitor process and serves to monitor the load of each process for a given service in the system
 
+ps aux
 
 echo "Inform the number PID that you want analisys"
 read pid
