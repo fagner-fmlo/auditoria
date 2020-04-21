@@ -12,6 +12,8 @@
 
 ps aux
 
+read
+
 echo "Inform the number PID that you want analisys"
 read pid
 
