@@ -15,7 +15,7 @@ read cpuser
 cd /home/$cpuser/public_html/
 wget https://raw.githubusercontent.com/fagner-fmlo/arquivos/master/info.php
 user=$(pwd | cut -d/ -f3)
-find $user -type f -exec chown $user.$user {} +
+find /home/$user -type f -exec chown $user.$user {} +
 echo "Press <Enter> To continue and delete the file info.php"
 read
 rm -f info.php
